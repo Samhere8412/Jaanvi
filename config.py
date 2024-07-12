@@ -32,14 +32,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousX1025/AnonXMusic",
+    "https://github.com/Samhere8412/Jaanvi",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SHAYARI_ZONE_XZ")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FRIENDS_ZONE_CHATTING_GROUP")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIENDS_ZONE_CHATTING_GROUP")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -78,7 +78,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/ea45bcffce599afa6e260.jpg"
+    "START_IMG_URL", "https://graph.org/file/60db177c93b0839eb942d.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/ea45bcffce599afa6e260.jpg"
